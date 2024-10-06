@@ -1,0 +1,78 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: #1a1a2e;
+    color: #333;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Header Styling */
+header {
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: #e94560;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+/* Main Container */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+/* Input Container */
+#input {
+    display: flex;
+    align-items: center;
+}
+
+input[type="file"] {
+    border: none;
+    color: #fff;
+    background-color:#e94560;
+    padding: 8px;
+    font-size: 0.8rem;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+input[type="file"]:hover {
+    background-color: #e9405ca4;
+}
+
+/* Audio Player */
+audio {
+    border: none;
+    padding: 10px;
+    width: 80vw;
+    border-radius: 25px;
+    color: #fff;
+}
+
+/* Canvas Styling */
+canvas {
+    width: 100%;
+    height: 60vh;
+    background-color: #2d2a2a;
+    border-radius: 15px;
+    margin-top: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
